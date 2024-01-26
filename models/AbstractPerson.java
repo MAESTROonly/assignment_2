@@ -8,8 +8,6 @@ public abstract class AbstractPerson implements Payable, Comparable<AbstractPers
 
     public AbstractPerson(){
         id = counter++;
-        name = "Unknown";
-        surname = "Unknown";
     }
 
     public AbstractPerson(String name, String surname){
